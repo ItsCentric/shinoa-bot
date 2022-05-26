@@ -28,7 +28,7 @@ client.loadSlashCommands(bot, false);
 // client.loadButtons(bot, false);
 
 client.on("ready", () => {
-    client.user.setActivity("your stats improve!", { type: "WATCHING" })
+    client.user.setActivity("Owari no Seraph <3", { type: "WATCHING" })
 })
 
 process.on('unhandledRejection', error => {
